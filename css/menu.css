@@ -1,0 +1,57 @@
+.main-container
+{
+    position: relative;
+    top: 3rem;
+    margin: auto;
+    width: 500px;
+}
+.main-title
+{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--third-color);
+    padding-bottom: 10px;
+}
+h1 
+{
+    font-size: 26px;
+    text-align: center;
+}
+h1 span 
+{
+    color: red;
+}
+h2 
+{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    text-align: center;
+}
+.links
+{
+    position: relative;
+    top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.links ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 40px;
+}
+.links ul li 
+{
+    list-style: none;
+
+}
+.links a
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}

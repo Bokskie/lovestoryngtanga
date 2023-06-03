@@ -1,0 +1,240 @@
+header 
+{
+    background-color: var(--bg-secondary-color);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.header-container-margin-wrapped
+{
+    margin: auto;
+    width: 1100px;
+    padding: 10px 0px 10px 0px;
+}
+.header-container
+{
+    display: flex;
+}
+.header-container .header-container-title-section-wrapped
+{
+    display: flex;
+    align-items: center;
+}
+.header-container .header-container-title-section-wrapped img 
+{
+    border-radius: 3rem;
+}
+.header-container .header_branch-name-section
+{
+    color: #ffffff;
+    font-size: var(--fs-medium);
+}
+.header-container .header_branch-name-section span
+{
+    color: var(--cl-red-color);
+    font-size: var(--fs-normal);
+    font-weight: 550;
+}
+/*-----------------MAIN CONTAINER------------------*/
+.main-content-section
+{
+    position: relative;
+    top: 6rem;
+    background-color: #ffffff;
+    width: 1200px;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+}
+.main-content_margin-section-wrapped
+{
+    width: 1100px;
+    margin: auto;
+}
+main .table-input-data-section 
+{
+    display: flex;
+    flex-direction: column;
+}
+main .table-input-data-section label 
+{
+    font-size: var(--fs-medium);
+    font-weight: 500;
+}
+main .table-input-data-section input 
+{
+    padding: 10px;
+    font-size: var(--fs-medium);
+    font-weight: 500;
+}
+main .table-input-data-section button
+{
+    cursor: pointer;
+    background-color: var(--bg-primary-color);
+    padding: 10px;
+}
+main .tabs 
+{
+    margin: auto;
+    border: 1px solid #000;
+    display: flex;
+    width: 1100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+main .tabs_button
+{
+    display: block;
+    width: 100px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+main .tabs_button i 
+{
+    font-size: var(--fs-medium);
+}
+main .tabs_button:active
+{
+    background: #00aa6c;
+}
+main .tabs_button:not(:last-of-type)
+{   
+    border-bottom: 1px solid #00aa6c;
+}
+main .tabs_button--active
+{
+    border-right: 1px solid #00aa6c;
+    background: #00aa6c;
+}
+main .tabs_content
+{
+    padding: 10px;
+    display: none;   
+}
+main .tabs_content--active
+{
+    display: block;
+}
+main .tabs_content > :first-child
+{
+    margin-top: 10px;
+}
+main .tabs-container_border-wrapped
+{
+    border: 10px solid #000000;
+}
+main .main-container_header-title
+{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 550;
+    padding: 0px 0px 40px 0px;
+    font-family: var(--font-style-secondary);
+}
+.main-container_first-page_paragraph-section
+{
+    display: flex;
+    justify-content: center;
+}
+main .main-container_paragraph-section
+{
+    font-size: 18px;
+    font-weight: 400;
+    width: 600px;
+    font-family: var(--font-style-primary);
+}
+.main-container_last-paragraph-section
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: auto;
+    width: 600px;
+    font-family: var(--font-style-primary);
+}
+main .two-container_wrapped
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+main .main-container_image-section
+{
+    position: relative;
+}
+main .main-container_image-section img
+{
+    border: 3px solid var(--bg-primary-color);
+    border-radius: 100%;
+}
+main .slide-show
+{
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+main h2 
+{
+    font-family: var(--font-style-third);
+}
+main .header_user-name
+{
+    font-size: 20px;
+    font-weight: 550;
+    color: var(--bg-primary-color );
+}
+
+@media (max-width: 520px){
+.header-container-margin-wrapped
+{
+    width: 400px;
+}
+.main-content-section
+{
+    
+    width: 500px;
+}
+.main-content_margin-section-wrapped
+{
+    width: 400px;
+}
+main .tabs 
+{
+    width: 400px;
+}
+main .main-container_header-title
+{
+    font-size: 22px;
+    font-weight: 750;
+}
+main .main-container_paragraph-section
+{
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+}
+.main-container_last-paragraph-section
+{
+    font-size: 18px;
+    font-weight: 400;
+    width: 300px;
+}
+main .main-container_image-section img
+{
+    width: 200px;
+    height: 170px;
+}
+main .two-container_wrapped
+{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
+main .full-home_main-banner img 
+{
+    width: 360px;
+    height: 170px;
+}
+
+
+}

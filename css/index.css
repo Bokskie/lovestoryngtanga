@@ -1,0 +1,90 @@
+.main-container
+{
+    position: relative;
+    top: 3rem;
+    width: 500px;
+    margin: auto;
+}
+.main-container img 
+{
+    display: flex;
+    margin: auto;
+}
+.main-title
+{
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.main-title::before
+{
+    content: "LoveStory";
+    color: var(--third-color);
+    position: absolute;
+    -webkit-text-stroke: 0.1vw var(--third-color);
+    border-right: 2px solid var(--third-color);
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+    0%, 10%, 100%
+    {
+        width: 0;
+    }
+    70%, 90%
+    {
+        width: 176px;
+    }
+}
+.second-maint-title
+{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.link-statement
+{
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.link-statement span 
+{
+    font-weight: 650;
+    border-bottom: 1px solid red;
+}
+.button
+{
+    position: relative;
+    top: 2rem;
+    width: 140px;
+    height: 20px;
+    background-image: linear-gradient(90deg,rgb(116, 110, 110),rgb(18, 67, 139),rgb(38, 168, 201),rgb(18, 67, 139),rgb(116, 114, 114));
+    font-size: 30px;
+    background-size: 300px;
+    border-radius: 10rem;
+    transition: .5s;
+    padding: 20px;
+    cursor: pointer;
+    justify-content: center;
+    margin: auto;
+    
+}
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+a:hover 
+{
+    color: red;
+}
